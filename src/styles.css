@@ -14,14 +14,7 @@
   }
   
   /* Position the navbar container inside the image */
-  .container1{
-    position: right;
-    margin: 0;
-    width: auto;
-    display: flex;
-    justify-content: center;
   
-  }
   
   /* The navbar */
   .topnav {
@@ -37,7 +30,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 100px;
   }
   
  
@@ -89,4 +82,9 @@
     border-radius: 50%;
   
 }
-/*Social*/
+.marquee{
+  color: #f1f1f1;
+  margin-left: 10px;
+  font-size: 25px;
+  font: italic;
+}

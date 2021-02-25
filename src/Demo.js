@@ -3,7 +3,6 @@ import Img from './images/plasma.jpg'
 import "./styles.css"
 import pic from './images/pic.png';
 import icon from './images/icon.png';
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
 class Demo extends React.Component {
@@ -12,12 +11,18 @@ class Demo extends React.Component {
 <div>
 <div class="bg-img">
   <div class="container1">
-    <div class="topnav">
-      <a href="#home"><h4>Home</h4></a>
-      <a href="#news"><h4>News</h4></a>
-      <a href="#contact"><h4>Contact</h4></a>
-      <a href="#about"><h4>About</h4></a>
-    </div>
+  <div class="topnav">
+
+  <div class="marquee"><marquee>“The best way to predict the future is to invent it.”- Alan Kay
+  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+  "Stay hungry, stay foolish" -Steve Jobs&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+  "Growth and comfort do not coexist." -Ginni Rometty&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+  “Keep going forward because success will come” -Cassandra Sanford&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+  “It’s fine to celebrate success but it is more important to heed the lessons of failure.”- Bill Gates</marquee>
+  
+  </div>
+
+</div>
     <div class="sidebar">
 
     <img src={pic} alt="pic" style={{height:'100px',width:'100px',borderRadius: '50%',marginLeft:'55px',marginTop:'10px'}}></img>
@@ -31,7 +36,7 @@ class Demo extends React.Component {
   <a href="#services"><i class="fa fa-fw fa-wrench"></i> Services</a>
   <a href="#clients"><i class="fa fa-fw fa-user"></i> Clients</a>
   <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-
+&nbsp;
   <p><span style={{fontSize: '20px',color:'rgb(239, 239, 239'}}>office20001024@gmail.com</span></p>
   <img src={icon} alt="icon" width="235" height="60" style={{marginTop:'2px'}}></img>
 
@@ -39,7 +44,6 @@ class Demo extends React.Component {
   </div>
  </div>
 </div>
-
 
         )
     }
