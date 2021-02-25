@@ -14,9 +14,9 @@
   }
   
   /* Position the navbar container inside the image */
-  .container {
+  .container1{
     position: right;
-    margin: ;
+    margin: 0;
     width: auto;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgb(0, 0, 0);
   overflow-x: hidden;
   padding-top: 16px;
 }
@@ -89,3 +89,4 @@
     border-radius: 50%;
   
 }
+/*Social*/
