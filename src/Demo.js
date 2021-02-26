@@ -3,13 +3,14 @@ import Img from './images/plasma.jpg'
 import "./styles.css"
 import pic from './images/pic.png';
 import icon from './images/icon.png';
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
 class Demo extends React.Component {
 	render() {
 		return (
 <div>
-<div class="bg-img">
+  <div class="bg-img">
   <div class="container1">
   <div class="topnav">
 
@@ -32,8 +33,8 @@ class Demo extends React.Component {
 <h1><span style={{color: 'rgb(239, 239, 239'}}>&nbsp;<u>Piyush Tale</u></span></h1>
 
   
-  <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
-  <a href="#services"><i class="fa fa-fw fa-wrench"></i> Services</a>
+  <a href="about" data-nav-section="about"><i class="fa fa-fw fa-home"></i> About</a>
+  <a href="skills" data-nav-section="skills"><i class="fa fa-fw fa-wrench"></i> Skills</a>
   <a href="#clients"><i class="fa fa-fw fa-user"></i> Clients</a>
   <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
 &nbsp;
@@ -42,6 +43,8 @@ class Demo extends React.Component {
 
 </div>
   </div>
+ </div>
+ <div>
  </div>
 </div>
 

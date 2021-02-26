@@ -1,18 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbars from './Navbars';
 import Main from './Main';
+import ReactDOM from 'react-dom';
+import Skills from './skills.jsx';
 import Demo from './Demo';
+import About from './about.jsx';
+import { BrowserRouter as Router, Route} from "react-router-dom";
+import { Link, browserHistory, IndexRoute } from 'react-router'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    
-    <Demo/>
-  </React.StrictMode>,
+ 
+    <App/>
+    </React.StrictMode>,
   document.getElementById('root')
 );
 

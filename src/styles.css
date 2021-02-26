@@ -88,3 +88,48 @@
   font-size: 25px;
   font: italic;
 }
+.about{
+  margin-left: 550px;
+}
+.skills{
+  margin-left: 550px;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #131313;
+  color: white;
+}
+.a1{
+  color: yellow;
+}
+.a2{
+  text-align: left;
+  margin-left: 250px;
+  font-size:x-large;
+}
+.a3{
+  color:cyan;
+  font-size: x-large;
+  margin-left: 300px;
+  text-align: left;
+}
+.a4{
+  text-align: left;
+  margin-left: 250px;
+  font-size:x-large;
+}
+.a5{
+  text-align: left;
+  margin-left: 84px;
+}
+.a6{
+  text-align: left;
+  margin-left: 240px;
+  font-size:x-large;
+}
+.a7{
+   margin-left: 230px;
+   font-size:xx-large;
+
+}
