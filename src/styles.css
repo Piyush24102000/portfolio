@@ -91,14 +91,13 @@
 .about{
   margin-left: 550px;
 }
-.skills{
-  margin-left: 550px;
-}
+
 .about-section {
   padding: 50px;
   text-align: center;
   background-color: #131313;
   color: white;
+  font-family: cursive;
 }
 .a1{
   color: yellow;
@@ -128,8 +127,94 @@
   margin-left: 240px;
   font-size:x-large;
 }
-.a7{
-   margin-left: 230px;
-   font-size:xx-large;
+.glowing{
+   margin-left: 150px;
+   font-size:x-large;
+   font-family: 'Times New Roman', Times, serif;
 
+}
+.skills{
+   padding: 50px;
+  text-align: center;
+  background-color: #131313;
+  color: white;
+  font-family: cursive;
+}
+.s1{
+  margin-left:75px;
+  margin-top: 20px;
+  color: yellow;
+  font-size: x-large;
+}
+.s2{
+  margin-top: 35px;
+  font-size: x-large;
+  margin-left: 80px ;
+}
+/*below is code of down arrow*/
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+.arrow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 650px;
+    margin-left:40px;
+}
+.arrow span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid #06A8FF;
+    border-right: 5px solid #06A8FF;
+    transform: rotate(45deg);
+    margin: -15px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 5;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+.s3{
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.s4{
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.s5{
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.s6{
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.s7{
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.s8{
+  margin-top: 40px;
+  margin-left: 80px;
 }
